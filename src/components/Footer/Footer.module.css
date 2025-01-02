@@ -1,0 +1,33 @@
+.footer {
+  background-color: #6e2fbb;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  padding : 53px 0;
+}
+
+.copyright {
+  color: #ffffff3d;
+  font-size: small;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.label li{
+  display: inline-flex;
+  color: white;
+  list-style: none;
+  padding: 10px 35px;
+  font-size: medium;
+}
+
+@media (max-width: 700px) {
+  .label li {
+    padding: 5px 10px;
+
+  }
+  .copyright{
+    padding: 0 20px;
+  }
+}

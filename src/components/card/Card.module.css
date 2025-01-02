@@ -1,0 +1,70 @@
+.card {
+  border-radius: 15px;
+  height: 280px;
+  width: 178px;
+  background-color:aliceblue; 
+  color: slateblue;
+  text-align: center;
+  align-items: center;
+  margin: 20px 10px;
+  border: solid 2px;
+  border-color: rgba(105, 90, 205, 0.3);
+  cursor:pointer;
+}
+
+.card:hover{
+  transform: scale(105%);
+  transition-duration: 200ms;
+  transform: all ease-in;
+  /* outline: 3px solid rgba(215, 215, 215, 0.805); */
+  outline-offset: -2px;
+}
+
+.image {
+  background-color: blueviolet;
+  height: 154px;
+  width: 154px;
+  border-radius: 10px;
+  margin-top: 13px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.tools{
+  margin-top: 13px;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+
+.price{
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.toolnames {
+  font-family: lato;
+  font-weight: 500;
+  font-size: 10px;
+  list-style:none;
+}
+.note {
+  font-family: lato;
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.line{
+  width: 80px;
+  align-items: center;
+  justify-items: center;
+  height: 0.5px;
+  border-radius: 0.25px;
+  background-color: slateblue;
+  margin: 16px 50px 5px;
+}

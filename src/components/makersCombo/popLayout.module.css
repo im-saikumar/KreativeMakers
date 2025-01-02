@@ -1,0 +1,31 @@
+.bottom {
+  position: relative;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bottom::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color:whitesmoke;
+  transform: rotate(45deg);
+  border-radius: 10%;
+  margin-top: -5px;
+  top: 0;
+}
+
+.box{
+  margin: 20px 30px;
+}
+.p{
+  font-size: small;
+  font-weight: 600;
+  color: #5d1fa9;
+}

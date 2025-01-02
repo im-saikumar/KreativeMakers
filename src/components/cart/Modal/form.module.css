@@ -1,0 +1,116 @@
+.pageLayout {
+  position: fixed;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  padding: 8% 30%;
+  animation: animation 0.4s ease;
+}
+
+.text {
+  margin: 10px 5px 10px 0;
+  width: 60%;
+  height: 100px;
+  padding: 5px;
+}
+
+.data {
+  display: none;
+}
+
+.bg {
+  position: fixed;
+  background-color: rgba(5, 5, 5, 0.704);
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
+.formLayout {
+  width: 500px;
+  background-color: rgb(238, 238, 238);
+  max-height: auto;
+  padding: 100px;
+  border-radius: 10px;
+}
+.lay {
+  margin: 10px 5px 10px 0;
+  width: auto;
+  height: 20px;
+}
+input.lay,
+.text,
+select {
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+}
+h2.lay {
+  margin-bottom: 25px;
+}
+
+p.lay {
+  font-size: small;
+  color: black;
+}
+label.lay {
+  font-weight: 600;
+  color: rgb(40, 40, 40);
+}
+button.lay {
+  padding: 8px 30px;
+  height: auto;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-width: 0;
+  margin: 0 10px 0 0;
+}
+button.lay:hover,
+button.lay:active {
+  padding: 8px 30px;
+  height: auto;
+  background-color: rgb(106, 26, 181);
+  color: aliceblue;
+  border-width: 0;
+}
+input.lay {
+  height: auto;
+  padding: 5px 30px 5px 2px;
+}
+select.lay {
+  width: 100px;
+  height: 30px;
+}
+select.lay {
+  font-weight: 600;
+}
+
+@media (max-height: 720px) {
+  .pageLayout{
+    padding: 0 25%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pageLayout {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .formLayout {
+    width: 100%;
+    height: 100%;
+    padding: 80px 20%;
+    border-radius: 0px;
+  }
+}
+
+@keyframes animation {
+  from {
+    top: 200px;
+  }
+  to {
+    top: 0px;
+  }
+}

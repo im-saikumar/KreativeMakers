@@ -1,0 +1,239 @@
+.sectionLayout {
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 10%;
+  padding-top: 15vh;
+  text-align: center;
+}
+
+/* about */
+
+.h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.h4 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 25px;
+  text-transform: capitalize;
+}
+
+.p {
+  color: rgb(37, 37, 37);
+  margin: 10px;
+  margin-top: 30px;
+  line-height: 22px;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+img.image {
+  border-radius: 0;
+  width: auto;
+  height: 300px;
+  object-fit: scale-down;
+  background-color: rgba(0, 255, 255, 0);
+  margin: 30px 0;
+}
+.line {
+  width: 10%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: slateblue;
+  margin: 10px 45%;
+}
+
+.colorline {
+  color: black;
+  background-color: yellow;
+  padding: 5px 25px;
+}
+
+.t {
+  color: black;
+  margin: 50px 0 30px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/* help */
+
+.ul {
+  text-align: left;
+  padding: 20px 22px 0;
+  text-transform: capitalize;
+}
+.ul li {
+  font-size: 1rem;
+  padding-top: 15px;
+  color: rgb(46, 46, 46);
+  font-weight: 500;
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.ul li:hover {
+  background-color: yellow;
+  width: fit-content;
+  cursor: default;
+}
+.ul ul {
+  padding-left: 15px;
+}
+
+.ul li span {
+  font-weight: 700;
+  color: black;
+}
+
+h2.help {
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 15px 50px;
+  background-color: slateblue;
+  border-radius: 50px;
+  margin: 20px 0;
+  color: aliceblue;
+  border-width: 0;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: rgb(75, 61, 162);
+}
+
+/* services */
+
+.heading {
+  margin-top: 25px;
+  padding: 8px 0px;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  border: solid slateblue;
+  border-width: 0 0 3px 0;
+  width: fit-content;
+}
+
+center .p {
+  width: 90%;
+  color: rgb(45, 45, 45);
+  font-size: 1rem;
+  padding-bottom: 25px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.p span {
+  font-weight: 600;
+  color: black;
+}
+
+.images_services {
+  outline: solid black 2px;
+  outline-offset: -1px;
+  margin: 20px;
+  height: 220px;
+  width: 220px;
+  border-radius: 12px;
+}
+
+.images_services:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 7px 0 black;
+  transition: all 250ms ease;
+  transform-origin: bottom;
+}
+
+.images_services:active {
+  box-shadow: 0 4px 0 black;
+  transform: translateY(-4px);
+  transition: all 20ms ease-in-out;
+}
+
+/* portfolio */
+
+h1.head {
+  position: relative;
+  font-size: 3rem;
+  color: black;
+  text-transform: capitalize;
+  width: 90%;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.pageLayout {
+  display:flex;
+  flex-wrap:wrap;
+  min-height: 100vh;
+  padding-top: 10vh;
+  margin: 0 5% 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+/* contact */
+
+.inp {
+  width: 30vh;
+  height: 20px;
+  padding: 5px 10px;
+  border: solid 2px black;
+  margin: 5px 0;
+  border-radius: 0px;
+}
+
+.area {
+  width: 30vh;
+  height: 200px;
+  padding: 10px 10px;
+  border: solid 2px black;
+  margin: 5px 0;
+  border-radius: 0px;
+}
+
+.form {
+  padding: 20px;
+}
+.button {
+  padding: 10px 30px;
+  width: 30vh;
+  background-color: slateblue;
+  text-align: center;
+  border: 0;
+  color: aliceblue;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 450px) {
+  .p{
+    text-align: justify;
+    text-justify: inter-word;
+    
+  }
+  .colorline{
+    padding: 2px;
+  }
+}

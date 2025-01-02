@@ -1,0 +1,89 @@
+.cartList {
+  display: flexbox;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pageLayout {
+  position: relative;
+  display: flexbox;
+  min-height: 75vh;
+  min-width: auto;
+  padding-top: 10vh;
+  padding-left: 50px;
+  background-color: rgb(248, 248, 248);
+  margin: 0 15%;
+  text-align: left;
+}
+
+.section1 {
+  position: relative;
+  width: 100%;
+  min-height: 65vh;
+}
+.section2 {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.order {
+  position: relative;
+  width: 300px;
+  margin: 0 100px 80px 0;
+  font-weight: 500;
+}
+
+.button {
+  text-align: end;
+  height: 50px;
+  color: white;
+  background-color: #5d1fa9;
+  padding: 10px 50px;
+  border-style: none;
+  font-weight: 600;
+  margin: 10px 10px 0 0;
+}
+.button:disabled,
+.button:disabled:hover,
+.button:disabled:active {
+  color: white;
+  background-color: #a4a4a4;
+  cursor: not-allowed;
+}
+
+.lay {
+  margin: 10px 10px 10px 0;
+  font-weight: 600;
+  height: 30px;
+  width: auto;
+  color: black;
+}
+
+.layText {
+  margin: 5px 0 5px 0;
+}
+.text {
+  text-transform: capitalize;
+  color: #a4a4a4;
+}
+
+@media (max-width: 1080px) {
+  .pageLayout {
+    margin: 0;
+  }
+
+  .order {
+    left: 0;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pageLayout {
+    padding-top: 11vh;
+  }
+  .section1 {
+    min-height: 58vh;
+  }
+}

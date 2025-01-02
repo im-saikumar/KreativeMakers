@@ -1,0 +1,57 @@
+.comboCard,
+.img {
+  width: 202px;
+  height: 202px;
+  background-color: #5d1fa9;
+  border-radius: 10px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.comboCardSize {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.comboCard:hover {
+  transform: scale(102%);
+  transition-duration: 80ms;
+  outline: 2px solid rgba(0, 0, 0, 0.4);
+  outline-offset: -2px;
+}
+
+.app {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 30px;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: Montserrat;
+}
+
+.lay {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 350px 0 500px ;
+  background-color: #6E2FBB;
+}
+
+@media (max-width: 820px) {
+.lay{
+  padding: 150px 0 150px;
+}
+}

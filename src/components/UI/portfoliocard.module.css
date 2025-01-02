@@ -1,0 +1,12 @@
+.image {
+  display: inline-flex;
+  height: 20vh;
+  width: 20vh;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 0;
+  background-color: snow;
+  border: solid 2px black;
+  object-fit: cover;
+  justify-content: center;
+}

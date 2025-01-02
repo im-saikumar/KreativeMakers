@@ -1,0 +1,35 @@
+.App {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#title {
+  width: 1200px;
+  text-align: center;
+  margin-top: 250px;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: Montserrat;
+}
+
+.App {
+  margin-bottom: 100px;
+}
+
+.container {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border-width: 1px;
+}
+
+Card {
+  display: flex;
+  flex-wrap: wrap;
+}
